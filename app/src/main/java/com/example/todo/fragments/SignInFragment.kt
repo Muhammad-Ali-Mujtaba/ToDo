@@ -1,6 +1,5 @@
 package com.example.todo.fragments
 
-import android.opengl.Visibility
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
@@ -11,7 +10,6 @@ import androidx.navigation.NavController
 import androidx.navigation.Navigation
 import com.example.todo.R
 import com.example.todo.databinding.FragmentSignInBinding
-import com.example.todo.databinding.FragmentSignUpBinding
 import com.google.firebase.auth.FirebaseAuth
 
 

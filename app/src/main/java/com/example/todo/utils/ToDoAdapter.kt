@@ -27,6 +27,7 @@ class ToDoAdapter() :
     class ToDoViewHolder private constructor(private val binding: TodoListBinding) :
         RecyclerView.ViewHolder(binding.root) {
 
+
         companion object {
 
             fun createToDo(parent: ViewGroup): ToDoViewHolder {
@@ -46,6 +47,9 @@ class ToDoAdapter() :
             binding.deleteTodoIv.setOnClickListener {
                 toDoAdapterClickListeners?.deleteTaskListener(item)
             }
+
+            binding.executePendingBindings()
+
         }
 
     }

@@ -60,6 +60,17 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent"></ImageView>
 
+        <ImageView
+            android:id="@+id/signOut_btn"
+            android:layout_width="58dp"
+            android:layout_height="58dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginStart="24dp"
+            android:src="@drawable/ic_baseline_logout_24"
+            android:rotation="-90"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"></ImageView>
+
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/tasks_rv"
             android:layout_width="0dp"
